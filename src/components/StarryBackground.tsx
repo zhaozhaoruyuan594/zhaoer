@@ -10,16 +10,16 @@ export default function StarryBackground() {
       aria-hidden
       className="pointer-events-none fixed inset-0 -z-10"
     >
-      <Canvas camera={{ position: [0, 0, 1] }} dpr={[1, 1.5]}>
+      <Canvas camera={{ position: [0, 0, 1] }} dpr={[1, 1.75]}>
         <Suspense fallback={null}>
           <Stars
-            radius={120}
-            depth={60}
-            count={3500}
-            factor={4}
+            radius={100}
+            depth={50}
+            count={6000}
+            factor={7}
             saturation={1}
             fade
-            speed={0.9}
+            speed={1.2}
           />
         </Suspense>
       </Canvas>

@@ -19,7 +19,7 @@ export default function Navbar({
   ] as const;
 
   return (
-    <header className="sticky top-0 z-50 border-b border-white/5 bg-background/70 backdrop-blur-xl">
+    <header className="font-nav sticky top-0 z-50 border-b border-white/5 bg-background/70 backdrop-blur-xl">
       <nav className="mx-auto flex max-w-6xl items-center justify-between px-6 py-4">
         <Link
           href={`/${lang}`}
