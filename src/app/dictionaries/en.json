@@ -8,7 +8,7 @@
     "about": "About",
     "career": "Career",
     "journey": "Journey",
-    "gallery": "Gallery",
+    "gallery": "Photos",
     "contact": "Contact"
   },
   "home": {
@@ -23,11 +23,11 @@
     "title": "About",
     "subtitle": "Background, opinions, and what I'm into.",
     "bioTitle": "Bio",
-    "bioContent": "This is placeholder text. Replace it with your own bio: your background, interests, what you've done, what you want to do. Keep it casual — make it feel like a conversation.",
+    "bioContent": "AI Trainer · Aquarius · Studying hard · Living mindfully · Sleeping well",
     "skillsTitle": "Skills",
     "skills": ["Skill one", "Skill two", "Skill three", "Skill four", "Skill five", "Skill six"],
     "interestsTitle": "Interests",
-    "interests": ["Reading", "Photography", "Travel", "Coding", "Music", "Film"]
+    "interests": ["Travel", "Gaming", "Chinese Animation", "Pondering random things"]
   },
   "career": {
     "title": "Career",
@@ -44,12 +44,6 @@
         "role": "Mid Role",
         "company": "Company B",
         "description": "Placeholder. What you learned and contributed at this company."
-      },
-      {
-        "period": "2019 - 2021",
-        "role": "Entry Role",
-        "company": "Company C",
-        "description": "Placeholder. Where your career started and what skills you built."
       }
     ]
   },
@@ -59,8 +53,8 @@
     "items": [
       {
         "date": "2026",
-        "title": "Topic One",
-        "summary": "Placeholder. Briefly describe what you've been learning, why, and what you took away."
+        "title": "Ongoing Exploration of AI Agents",
+        "summary": "Training a personal AI assistant tailored to myself."
       },
       {
         "date": "2025",
@@ -75,7 +69,7 @@
     ]
   },
   "gallery": {
-    "title": "Gallery",
+    "title": "Photos",
     "subtitle": "Photos. Mostly mine.",
     "empty": "Nothing here yet. Drop photos into public/photos/ and they'll show up automatically."
   },
@@ -83,7 +77,7 @@
     "title": "Contact",
     "subtitle": "Email is the easiest. I usually reply.",
     "emailLabel": "Email",
-    "email": "your.email@example.com",
+    "email": "zhaozhaoruyuan594@gmail.com",
     "socialTitle": "Social",
     "footer": "If you got this far, just say hi."
   },

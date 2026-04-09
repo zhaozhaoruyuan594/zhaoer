@@ -8,7 +8,7 @@
     "about": "关于",
     "career": "工作经历",
     "journey": "学习历程",
-    "gallery": "相册",
+    "gallery": "相片夹",
     "contact": "联系"
   },
   "home": {
@@ -23,11 +23,11 @@
     "title": "关于我",
     "subtitle": "我是谁,在乎什么,平时在想些什么。",
     "bioTitle": "个人简介",
-    "bioContent": "这里是占位文本。请替换为你的个人简介:你的背景、兴趣、做过的事、想做的事。可以写得轻松随意一些,让访客感觉像在跟你聊天。",
+    "bioContent": "AI 训练师 · 水瓶座 · 努力学习 · 认真生活 · 好好睡觉",
     "skillsTitle": "技能",
     "skills": ["技能一", "技能二", "技能三", "技能四", "技能五", "技能六"],
     "interestsTitle": "兴趣",
-    "interests": ["阅读", "摄影", "旅行", "编程", "音乐", "电影"]
+    "interests": ["旅行", "游戏", "国漫", "琢磨点有的没的"]
   },
   "career": {
     "title": "工作经历",
@@ -44,12 +44,6 @@
         "role": "中级岗位",
         "company": "公司名称 B",
         "description": "占位描述。在这家公司学到了什么、做出了什么贡献。"
-      },
-      {
-        "period": "2019 - 2021",
-        "role": "入门岗位",
-        "company": "公司名称 C",
-        "description": "占位描述。职业生涯的起点,积累了哪些技能。"
       }
     ]
   },
@@ -59,8 +53,8 @@
     "items": [
       {
         "date": "2026",
-        "title": "学习主题一",
-        "summary": "占位。简短描述这段时间在学什么、为什么学、有什么收获。"
+        "title": "AI Agent 的持续探索",
+        "summary": "训练出一个适配自己的 AI 小助手。"
       },
       {
         "date": "2025",
@@ -75,7 +69,7 @@
     ]
   },
   "gallery": {
-    "title": "相册",
+    "title": "相片夹",
     "subtitle": "拍的一些照片。大部分是我自己拍的。",
     "empty": "这里还没东西。把照片丢进 public/photos/ 文件夹,自动就出现了。"
   },
@@ -83,7 +77,7 @@
     "title": "联系我",
     "subtitle": "邮件最方便,我一般都会回。",
     "emailLabel": "邮箱",
-    "email": "your.email@example.com",
+    "email": "zhaozhaoruyuan594@gmail.com",
     "socialTitle": "社交媒体",
     "footer": "看到这里还没走的话,就别犹豫了,打个招呼吧。"
   },
