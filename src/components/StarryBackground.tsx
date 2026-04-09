@@ -17,9 +17,9 @@ export default function StarryBackground() {
             depth={60}
             count={3500}
             factor={4}
-            saturation={0}
+            saturation={1}
             fade
-            speed={0.6}
+            speed={0.9}
           />
         </Suspense>
       </Canvas>
