@@ -7,6 +7,7 @@ import Image from "next/image";
 
 const PHOTO_DIR = path.join(process.cwd(), "public", "photos");
 const exts = new Set([".jpg", ".jpeg", ".png", ".webp", ".avif"]);
+const BASE_PATH = process.env.NEXT_PUBLIC_BASE_PATH ?? "/zhaoer";
 
 function listPhotos(): string[] {
   if (!fs.existsSync(PHOTO_DIR)) return [];
@@ -38,7 +39,7 @@ export default async function GalleryPage({ params }: PageProps<"/[lang]/gallery
               className="group relative aspect-square overflow-hidden rounded-xl border border-white/10 bg-white/5"
             >
               <Image
-                src={`/photos/${p}`}
+                src={`${BASE_PATH}/photos/${p}`}
                 alt={p}
                 fill
                 sizes="(max-width: 768px) 50vw, (max-width: 1024px) 33vw, 25vw"
