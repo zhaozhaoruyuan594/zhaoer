@@ -1,0 +1,94 @@
+{
+  "meta": {
+    "title": "Zhaoer · Personal Site",
+    "description": "Zhaoer's resume, work, and life journal"
+  },
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "career": "Career",
+    "journey": "Journey",
+    "gallery": "Gallery",
+    "contact": "Contact"
+  },
+  "home": {
+    "greeting": "Hi, I'm",
+    "name": "Zhaoer",
+    "tagline": "I build things, learn out loud, and try not to take it too seriously.",
+    "intro": "This is where I park my work, scattered thoughts, and a few photos. Drag the diamond if you want to fidget.",
+    "exploreBtn": "More about me",
+    "contactBtn": "Say hi"
+  },
+  "about": {
+    "title": "About",
+    "subtitle": "Background, opinions, and what I'm into.",
+    "bioTitle": "Bio",
+    "bioContent": "This is placeholder text. Replace it with your own bio: your background, interests, what you've done, what you want to do. Keep it casual — make it feel like a conversation.",
+    "skillsTitle": "Skills",
+    "skills": ["Skill one", "Skill two", "Skill three", "Skill four", "Skill five", "Skill six"],
+    "interestsTitle": "Interests",
+    "interests": ["Reading", "Photography", "Travel", "Coding", "Music", "Film"]
+  },
+  "career": {
+    "title": "Career",
+    "subtitle": "What I've worked on, roughly in order.",
+    "items": [
+      {
+        "period": "2024 - Present",
+        "role": "Senior Role",
+        "company": "Company A",
+        "description": "Placeholder. Core responsibilities, key outcomes, teams you collaborated with."
+      },
+      {
+        "period": "2021 - 2024",
+        "role": "Mid Role",
+        "company": "Company B",
+        "description": "Placeholder. What you learned and contributed at this company."
+      },
+      {
+        "period": "2019 - 2021",
+        "role": "Entry Role",
+        "company": "Company C",
+        "description": "Placeholder. Where your career started and what skills you built."
+      }
+    ]
+  },
+  "journey": {
+    "title": "Learning Journey",
+    "subtitle": "Stuff I've been figuring out, and what I make of it.",
+    "items": [
+      {
+        "date": "2026",
+        "title": "Topic One",
+        "summary": "Placeholder. Briefly describe what you've been learning, why, and what you took away."
+      },
+      {
+        "date": "2025",
+        "title": "Topic Two",
+        "summary": "Placeholder. Write a short retrospective on this learning chapter."
+      },
+      {
+        "date": "2024",
+        "title": "Topic Three",
+        "summary": "Placeholder. Each entry marks a milestone on your growth path."
+      }
+    ]
+  },
+  "gallery": {
+    "title": "Gallery",
+    "subtitle": "Photos. Mostly mine.",
+    "empty": "Nothing here yet. Drop photos into public/photos/ and they'll show up automatically."
+  },
+  "contact": {
+    "title": "Contact",
+    "subtitle": "Email is the easiest. I usually reply.",
+    "emailLabel": "Email",
+    "email": "your.email@example.com",
+    "socialTitle": "Social",
+    "footer": "If you got this far, just say hi."
+  },
+  "footer": {
+    "rights": "All rights reserved",
+    "builtWith": "Built with Next.js and Three.js"
+  }
+}

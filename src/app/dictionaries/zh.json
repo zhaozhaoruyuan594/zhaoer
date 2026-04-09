@@ -1,0 +1,94 @@
+{
+  "meta": {
+    "title": "Zhaoer · 个人主页",
+    "description": "Zhaoer 的个人履历与生活记录"
+  },
+  "nav": {
+    "home": "首页",
+    "about": "关于",
+    "career": "工作经历",
+    "journey": "学习历程",
+    "gallery": "相册",
+    "contact": "联系"
+  },
+  "home": {
+    "greeting": "你好,我是",
+    "name": "Zhaoer",
+    "tagline": "做点东西,学点东西,尽量不把自己太当回事。",
+    "intro": "这里堆着我做过的事、零散的想法和几张照片。无聊的话,可以拽一下右边那颗钻石玩玩。",
+    "exploreBtn": "多了解一点",
+    "contactBtn": "打个招呼"
+  },
+  "about": {
+    "title": "关于我",
+    "subtitle": "我是谁,在乎什么,平时在想些什么。",
+    "bioTitle": "个人简介",
+    "bioContent": "这里是占位文本。请替换为你的个人简介:你的背景、兴趣、做过的事、想做的事。可以写得轻松随意一些,让访客感觉像在跟你聊天。",
+    "skillsTitle": "技能",
+    "skills": ["技能一", "技能二", "技能三", "技能四", "技能五", "技能六"],
+    "interestsTitle": "兴趣",
+    "interests": ["阅读", "摄影", "旅行", "编程", "音乐", "电影"]
+  },
+  "career": {
+    "title": "工作经历",
+    "subtitle": "做过的事,大致按时间顺序。",
+    "items": [
+      {
+        "period": "2024 - 至今",
+        "role": "高级岗位",
+        "company": "公司名称 A",
+        "description": "占位描述。负责的核心业务、关键成果、协作团队。"
+      },
+      {
+        "period": "2021 - 2024",
+        "role": "中级岗位",
+        "company": "公司名称 B",
+        "description": "占位描述。在这家公司学到了什么、做出了什么贡献。"
+      },
+      {
+        "period": "2019 - 2021",
+        "role": "入门岗位",
+        "company": "公司名称 C",
+        "description": "占位描述。职业生涯的起点,积累了哪些技能。"
+      }
+    ]
+  },
+  "journey": {
+    "title": "学习历程",
+    "subtitle": "最近在学的东西,以及我怎么看。",
+    "items": [
+      {
+        "date": "2026",
+        "title": "学习主题一",
+        "summary": "占位。简短描述这段时间在学什么、为什么学、有什么收获。"
+      },
+      {
+        "date": "2025",
+        "title": "学习主题二",
+        "summary": "占位。可以写一段关于这次学习经历的回顾。"
+      },
+      {
+        "date": "2024",
+        "title": "学习主题三",
+        "summary": "占位。每条都是你成长路上的一个节点。"
+      }
+    ]
+  },
+  "gallery": {
+    "title": "相册",
+    "subtitle": "拍的一些照片。大部分是我自己拍的。",
+    "empty": "这里还没东西。把照片丢进 public/photos/ 文件夹,自动就出现了。"
+  },
+  "contact": {
+    "title": "联系我",
+    "subtitle": "邮件最方便,我一般都会回。",
+    "emailLabel": "邮箱",
+    "email": "your.email@example.com",
+    "socialTitle": "社交媒体",
+    "footer": "看到这里还没走的话,就别犹豫了,打个招呼吧。"
+  },
+  "footer": {
+    "rights": "保留所有权利",
+    "builtWith": "用 Next.js 和 Three.js 搭的"
+  }
+}
