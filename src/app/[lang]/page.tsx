@@ -2,6 +2,7 @@ import Link from "next/link";
 import { getDictionary, hasLocale } from "../dictionaries";
 import { notFound } from "next/navigation";
 import ThreeHero from "@/components/ThreeHero";
+import StarryBackground from "@/components/StarryBackground";
 
 export default async function HomePage({ params }: PageProps<"/[lang]">) {
   const { lang } = await params;
@@ -9,7 +10,8 @@ export default async function HomePage({ params }: PageProps<"/[lang]">) {
   const dict = await getDictionary(lang);
 
   return (
-    <section className="mx-auto max-w-6xl px-6 pt-12 pb-24 md:pt-20">
+    <section className="relative mx-auto max-w-6xl px-6 pt-12 pb-24 md:pt-20">
+      <StarryBackground />
       <div className="grid items-center gap-12 md:grid-cols-2">
         <div>
           <p className="mb-3 text-sm font-medium uppercase tracking-widest text-cyan">

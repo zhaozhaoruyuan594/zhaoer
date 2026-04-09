@@ -70,7 +70,7 @@
   },
   "gallery": {
     "title": "相片夹",
-    "subtitle": "拍的一些照片。大部分是我自己拍的。",
+    "subtitle": "生活の碎片",
     "empty": "这里还没东西。把照片丢进 public/photos/ 文件夹,自动就出现了。"
   },
   "contact": {
